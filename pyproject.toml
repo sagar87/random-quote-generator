@@ -1,6 +1,9 @@
 [tool.poetry]
 name = "random-quote-generator-425940"
 version = "0.1.0"
+packages = [
+    { include = "random_quote_generator" },
+]
 description = ""
 authors = ["Harald Vohringer <harald.voeh@gmail.com>"]
 
@@ -19,3 +22,4 @@ safety = "^1.10.3"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
